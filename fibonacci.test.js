@@ -42,4 +42,10 @@ test('When initialized, check the current number', () => {
 test('When initialized the next number can be returned', () => {
     fibonacci.init(0);
     expect(fibonacci.skip(3)).toBe(2);
-});
+})
+
+
+// test('When initialized the next number can be returned', () => {
+//     fibonacci.init(0);
+//     expect(fibonacci.skip(3)).toBe(2);
+// });
